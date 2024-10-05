@@ -32,7 +32,7 @@ const GoldPrice = () => {
 
             <nav className="bg-yellow-500 text-white py-4">
                 <div className="container mx-auto flex justify-between items-center">
-                    <h1 className="text-2xl font-bold mx-auto">Gold Tracker</h1>
+                    <h1 className="text-2xl font-bold mx-auto">Gold Price Tracker</h1>
                 </div>
             </nav>
 
