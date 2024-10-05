@@ -11,7 +11,7 @@ const GoldPrice = () => {
 
     useEffect(() => {
 
-        socket = io('http://localhost:4000'); 
+        socket = io('https://livegoldprice.onrender.com'); 
 
         socket.on('goldPriceUpdate', (data) => {
             setPrice(data.price);  
